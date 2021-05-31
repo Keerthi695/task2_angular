@@ -12,19 +12,39 @@ body{
     margin-top: 10px;
 }
 .graph img{
-    width: 20pc;
+    width: 18pc;
     padding-right: 20px;
 }
 .piechart img{
     width: 24pc;
 }
 .bouncerate img{
-    width: 30pc;
+    width: 100%;
 }
 .inner_sec {
     background: #07073b;
-    width: 30pc;
+    width: 25.5pc;
     position: absolute;
     top: 85px;
     
+}
+.todaylist{
+   
+    display: flex;
+    margin-top: 65px;
+}
+.today-list ul li{
+list-style-type: none;
+}
+ul{
+    padding: 5px;
+}
+.today-list p{
+    font-size: 12px;
+}
+.markline{
+    text-decoration-line: line-through; 
+}
+.colud_part img{
+    width: 100%;
 }
